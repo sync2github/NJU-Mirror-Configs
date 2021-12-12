@@ -35,6 +35,6 @@ jobs:
           cd ..
       
       - name: Add and commit
-      - uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: generate index.json automatically
