@@ -194,6 +194,10 @@
     "path": "/git/gcc.git"
   },
   {
+    "name": "gentoo.git",
+    "path": "/git/gentoo.git"
+  },
+  {
     "name": "gentoo-portage.git",
     "path": "/git/gentoo-portage.git"
   },
