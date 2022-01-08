@@ -24,6 +24,10 @@
     "inherit": "osdn"
   },
   {
+    "name": "raspbian-addons",
+    "inherit": "osdn"
+  },
+  {
     "name": "FreeCAD",
     "inherit": "github-release",
     "path": "/github-release/FreeCAD/FreeCAD/"
