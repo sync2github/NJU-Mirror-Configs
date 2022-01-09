@@ -297,24 +297,54 @@
     "name": "docker-hub",
     "inherit": null,
     "status":"cache",
-    "route": "/help/docker-hub"
+    "path": "https://doc.nju.edu.cn/books/35f4a/page/docker-hub"
+  },
+  {
+    "name": "gcr",
+    "inherit": null,
+    "status":"cache",
+    "path": "https://doc.nju.edu.cn/books/35f4a/page/gcr"
+  },
+  {
+    "name": "ghcr",
+    "inherit": null,
+    "status":"cache",
+    "path": "https://doc.nju.edu.cn/books/35f4a/page/ghcr"
+  },
+  {
+    "name": "ngc",
+    "inherit": null,
+    "status":"cache",
+    "path": "https://doc.nju.edu.cn/books/35f4a/page/ngc"
+  },
+  {
+    "name": "quay",
+    "inherit": null,
+    "status":"cache",
+    "path": "https://doc.nju.edu.cn/books/35f4a/page/quay"
   },
   {
     "name": "go",
     "inherit": null,
     "status":"cache",
-    "path": "https://repo.nju.edu.cn/repository/go/"
+    "path": "https://doc.nju.edu.cn/books/35f4a/page/go"
   },
   {
     "name": "maven",
     "inherit": null,
     "status":"cache",
-    "path": "https://repo.nju.edu.cn/repository/maven/"
+    "path": "https://doc.nju.edu.cn/books/35f4a/page/maven"
+  },
+  {
+    "name": "gradle",
+    "inherit": null,
+    "status":"cache",
+    "path": "https://doc.nju.edu.cn/books/35f4a/page/gradle"
   },
   {
     "name": "npm",
     "inherit": null,
     "status":"cache",
-    "path": "https://repo.nju.edu.cn/repository/npm/"
+    "path": "https://doc.nju.edu.cn/books/35f4a/page/npm"
   }
 ]
