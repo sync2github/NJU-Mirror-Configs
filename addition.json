@@ -28,94 +28,9 @@
     "inherit": "osdn"
   },
   {
-    "name": "FreeCAD",
+    "name": "atom",
     "inherit": "github-release",
-    "path": "/github-release/FreeCAD/FreeCAD/"
-  },
-  {
-    "name": "stellarium",
-    "inherit": "github-release",
-    "path": "/github-release/Stellarium/stellarium/"
-  },
-  {
-    "name": "vscodium",
-    "inherit": "github-release",
-    "path": "/github-release/VSCodium/vscodium/"
-  },
-  {
-    "name": "etcher",
-    "inherit": "github-release",
-    "path": "/github-release/balena-io/etcher/"
-  },
-  {
-    "name": "cmder",
-    "inherit": "github-release",
-    "path": "/github-release/cmderdev/cmder/"
-  },
-  {
-    "name": "miniforge",
-    "inherit": "github-release",
-    "path": "/github-release/conda-forge/miniforge/"
-  },
-  {
-    "name": "git-for-windows",
-    "inherit": "github-release",
-    "path": "/github-release/git-for-windows/git/"
-  },
-  {
-    "name": "harbor",
-    "inherit": "github-release",
-    "path": "/github-release/goharbor/harbor/"
-  },
-  {
-    "name": "googlefonts",
-    "inherit": "github-release",
-    "path": "/github-release/googlefonts/"
-  },
-  {
-    "name": "minikube",
-    "inherit": "github-release",
-    "path": "/github-release/kubernetes/minikube/"
-  },
-  {
-    "name": "KataGo",
-    "inherit": "github-release",
-    "path": "/github-release/lightvector/KataGo/"
-  },
-  {
-    "name": "llvm-binary",
-    "inherit": "github-release",
-    "path": "/github-release/llvm/llvm-project/"
-  },
-  {
-    "name": "obs-studio",
-    "inherit": "github-release",
-    "path": "/github-release/obsproject/obs-studio/"
-  },
-  {
-    "name": "orchestrator",
-    "inherit": "github-release",
-    "path": "/github-release/openark/orchestrator/"
-  },
-  {
-    "name": "rufus",
-    "inherit": "github-release",
-    "path": "/github-release/pbatard/rufus/"
-  },
-  {
-    "name": "prometheus",
-    "inherit": "github-release",
-    "path": "/github-release/prometheus/"
-  },
-  {
-    "name": "rust-analyzer",
-    "inherit": "github-release",
-    "path": "/github-release/rust-analyzer/rust-analyzer/"
-  },
-  {
-    "name": "texstudio",
-    "inherit": "github-release",
-    "path": "/github-release/texstudio-org/texstudio/"
+    "path": "/github-release/atom/atom/"
   },
   {
     "name": "be5invis",
@@ -123,9 +38,34 @@
     "path": "/github-release/be5invis/"
   },
   {
-    "name": "PowerShell",
+    "name": "Bob",
     "inherit": "github-release",
-    "path": "/github-release/PowerShell/PowerShell/"
+    "path": "/github-release/ripperhe/Bob/"
+  },
+  {
+    "name": "cmder",
+    "inherit": "github-release",
+    "path": "/github-release/cmderdev/cmder/"
+  },
+  {
+    "name": "CuteTranslation",
+    "inherit": "github-release",
+    "path": "/github-release/jiangzc/CuteTranslation/"
+  },
+  {
+    "name": "dbeaver",
+    "inherit": "github-release",
+    "path": "/github-release/dbeaver/dbeaver/"
+  },
+  {
+    "name": "etcher",
+    "inherit": "github-release",
+    "path": "/github-release/balena-io/etcher/"
+  },
+  {
+    "name": "FreeCAD",
+    "inherit": "github-release",
+    "path": "/github-release/FreeCAD/FreeCAD/"
   },
   {
     "name": "frp",
@@ -138,9 +78,79 @@
     "path": "/github-release/gephi/gephi/"
   },
   {
+    "name": "git-for-windows",
+    "inherit": "github-release",
+    "path": "/github-release/git-for-windows/git/"
+  },
+  {
+    "name": "googlefonts",
+    "inherit": "github-release",
+    "path": "/github-release/googlefonts/"
+  },
+  {
+    "name": "HandBrake",
+    "inherit": "github-release",
+    "path": "/github-release/HandBrake/HandBrake/"
+  },
+  {
+    "name": "harbor",
+    "inherit": "github-release",
+    "path": "/github-release/goharbor/harbor/"
+  },
+  {
     "name": "joplin",
     "inherit": "github-release",
     "path": "/github-release/laurent22"
+  },
+  {
+    "name": "KataGo",
+    "inherit": "github-release",
+    "path": "/github-release/lightvector/KataGo/"
+  },
+  {
+    "name": "llvm-binary",
+    "inherit": "github-release",
+    "path": "/github-release/llvm/llvm-project/"
+  },
+  {
+    "name": "miniforge",
+    "inherit": "github-release",
+    "path": "/github-release/conda-forge/miniforge/"
+  },
+  {
+    "name": "minikube",
+    "inherit": "github-release",
+    "path": "/github-release/kubernetes/minikube/"
+  },
+  {
+    "name": "NJUThesis",
+    "inherit": "github-release",
+    "path": "/github-release/nju-lug/NJUThesis/LatestRelease/"
+  },
+  {
+    "name": "NJUVisual",
+    "inherit": "github-release",
+    "path": "/github-release/nju-lug/NJUVisual/LatestRelease/"
+  },
+  {
+    "name": "obs-studio",
+    "inherit": "github-release",
+    "path": "/github-release/obsproject/obs-studio/"
+  },
+  {
+    "name": "orchestrator",
+    "inherit": "github-release",
+    "path": "/github-release/openark/orchestrator/"
+  },
+  {
+    "name": "pandoc",
+    "inherit": "github-release",
+    "path": "/github-release/jgm/pandoc/"
+  },
+  {
+    "name": "PowerShell",
+    "inherit": "github-release",
+    "path": "/github-release/PowerShell/PowerShell/"
   },
   {
     "name": "PowerToys",
@@ -148,14 +158,49 @@
     "path": "/github-release/microsoft/PowerToys/"
   },
   {
+    "name": "prometheus",
+    "inherit": "github-release",
+    "path": "/github-release/prometheus/"
+  },
+  {
+    "name": "rufus",
+    "inherit": "github-release",
+    "path": "/github-release/pbatard/rufus/"
+  },
+  {
+    "name": "rust-analyzer",
+    "inherit": "github-release",
+    "path": "/github-release/rust-analyzer/rust-analyzer/"
+  },
+  {
+    "name": "stellarium",
+    "inherit": "github-release",
+    "path": "/github-release/Stellarium/stellarium/"
+  },
+  {
+    "name": "Synergy-Binaries",
+    "inherit": "github-release",
+    "path": "/github-release/DEAKSoftware/Synergy-Binaries/"
+  },
+  {
+    "name": "texstudio",
+    "inherit": "github-release",
+    "path": "/github-release/texstudio-org/texstudio/"
+  },
+  {
     "name": "Ventoy",
     "inherit": "github-release",
     "path": "/github-release/ventoy/Ventoy/"
   },
   {
-    "name": "NJUThesis",
+    "name": "vscodium",
     "inherit": "github-release",
-    "path": "/github-release/nju-lug/NJUThesis"
+    "path": "/github-release/VSCodium/vscodium/"
+  },
+  {
+    "name": "Zettlr",
+    "inherit": "github-release",
+    "path": "/github-release/Zettlr/Zettlr/"
   },
   {
     "name": "aosp",
