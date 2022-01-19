@@ -1,5 +1,3 @@
-## Nodejs Release 镜像使用帮助
-
 Nodejs Release 为各平台提供预编译的 nodejs 和 npm 等二进制文件，是
 [https://nodejs.org/dist/](https://nodejs.org/dist/) 的镜像。
 

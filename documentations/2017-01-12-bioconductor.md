@@ -1,5 +1,3 @@
-## Bioconductor 镜像使用帮助
-
 [官方网站](https://www.bioconductor.org) 
 
 Bioconductor 镜像源配置文件之一是 `.Rprofile` (linux 下位于 `~/.Rprofile` )。

@@ -1,4 +1,4 @@
-## Julia 二进制安装程序
+### Julia 二进制安装程序
 
 Julia 是一个全新的以科学计算为核心的通用编程语言，其二进制程序可以到 <https://mirror.nju.edu.cn/julia-releases/bin/> 下载。
 

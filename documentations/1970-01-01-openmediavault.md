@@ -1,5 +1,3 @@
-## OpenMediaVault 镜像使用帮助
-
 Open Media Vault 是一款基于 Debian 的 NAS 操作系统，本站提供 OpenMediaVault 的镜像，以加快国内访问速度。
 
 以下方法自 5.6.3-1 开始可用（2021-04-07）

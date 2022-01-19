@@ -1,5 +1,3 @@
-## Kubernetes 镜像使用帮助
-
 Kubernetes 是用于自动部署，扩展和管理容器化应用程序的开源系统。详情可见 [官方介绍](https://kubernetes.io/zh/)。
 
 **硬件架构: `x86_64`, `armhfp`, `aarch64`**

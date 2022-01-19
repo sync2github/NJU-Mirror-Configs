@@ -1,5 +1,3 @@
-## Gitlab CI Multi Runner 镜像使用帮助
-
 **注意: gitlab-ci-multi-runner 已停止更新。** 如果你需要安装版本 10 及以上的
 Runner，由于官方名称发生变化，请前往 [gitlab-runner帮助页面](https://mirror.nju.edu.cn/help/gitlab-runner/)。
 

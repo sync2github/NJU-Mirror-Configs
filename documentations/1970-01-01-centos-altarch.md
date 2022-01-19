@@ -1,5 +1,3 @@
-## centos-altarch 镜像使用帮助
-
 该文件夹提供 CentOS 7 与 8，`x86_64`以外的架构。
 
 建议先备份 `/etc/yum.repos.d/` 内的文件（CentOS 7 及之前为 `CentOS-Base.repo`，CentOS 8 为`CentOS-Linux-*.repo`）。

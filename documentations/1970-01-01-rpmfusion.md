@@ -1,5 +1,3 @@
-## RPMFusion 镜像使用帮助
-
 ### 安装基础包
 
 首先安装提供基础配置文件和 GPG 密钥的 `rpmfusion-*.rpm`。Fedora 用户可使用如下命令：

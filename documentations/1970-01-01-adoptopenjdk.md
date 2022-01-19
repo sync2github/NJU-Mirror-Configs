@@ -1,5 +1,3 @@
-## AdoptOpenJDK 镜像使用帮助
-
 ### Windows/macOS 用户
 
 打开 [下载页面](https://mirror.nju.edu.cn/AdoptOpenJDK/) ，选择所需的版本，下载独立安装包。

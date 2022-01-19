@@ -1,5 +1,3 @@
-## lineageOS 源代码镜像使用帮助
-
 **注意: 本镜像是 lineageOS 源代码的镜像，如果是希望下载lineage的rom，请访问 <https://mirror.nju.edu.cn/help/lineage-rom/>。**
 
 ### 过程摘录

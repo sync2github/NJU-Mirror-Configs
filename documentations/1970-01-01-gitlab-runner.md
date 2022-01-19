@@ -1,5 +1,3 @@
-## Gitlab Runner 镜像使用帮助
-
 **注意: gitlab-runner 镜像支持 x86-64 和 ARM64(aarch64) 架构**
 
 ### Debian/Ubuntu 用户

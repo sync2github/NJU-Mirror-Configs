@@ -1,5 +1,3 @@
-## Docker Hub 源使用帮助
-
 ### Linux
 
 在配置文件 `/etc/docker/daemon.json` 中加入：
