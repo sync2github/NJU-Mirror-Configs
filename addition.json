@@ -12,14 +12,6 @@
     "inherit": "osdn"
   },
   {
-    "name": "manjaro-arm-cd",
-    "inherit": "osdn"
-  },
-  {
-    "name": "manjaro-cd",
-    "inherit": "osdn"
-  },
-  {
     "name": "mxlinux-isos",
     "inherit": "osdn"
   },
