@@ -1,6 +1,6 @@
 {
   "title": "e-Science 中心",
-  "url": "https://sci.nju.edu.cn/",
+  "url": "https://sci.nju.edu.cn",
   "links": [
     {
       "title": "云盘",
@@ -14,12 +14,12 @@
     },
     {
       "title": "超级计算",
-      "url": "https://hpc.nju.edu.cn/zh/",
+      "url": "https://hpc.nju.edu.cn",
       "icon": "server"
     },
     {
       "title": "私服仓库",
-      "url": "https://repo.nju.edu.cn/",
+      "url": "https://repo.nju.edu.cn",
       "icon": "repo"
     },
     {
@@ -35,12 +35,12 @@
     
     {
       "title": "网络测速",
-      "url": "http://test.nju.edu.cn/",
+      "url": "http://test.nju.edu.cn",
       "icon": "speedometer"
     },
     {
       "title": "远程控制",
-      "url": "https://entry.nju.edu.cn/shterm/login",
+      "url": "https://entry.nju.edu.cn",
       "icon": "monitor"
     }
   ]
