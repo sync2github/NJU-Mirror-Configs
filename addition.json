@@ -259,6 +259,14 @@
     "path": "/git/homebrew"
   },
   {
+    "name": "homebrew-base.git",
+    "path": "/git/homebrew-base.git"
+  },
+  {
+    "name": "homebrew-bio.git",
+    "path": "/git/homebrew-bio.git"
+  },
+  {
     "name": "homebrew-cask.git",
     "path": "/git/homebrew-cask.git"
   },
@@ -269,6 +277,10 @@
   {
     "name": "homebrew-core.git",
     "path": "/git/homebrew-core.git"
+  },
+  {
+    "name": "homebrew-num.git",
+    "path": "/git/homebrew-num.git"
   },
   {
     "name": "linuxbrew-core.git",
