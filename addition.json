@@ -323,6 +323,10 @@
     "path": "/git/open-mpi.git"
   },
   {
+    "name": "powerlevel10k.git",
+    "path": "/git/powerlevel10k.git"
+  },
+  {
     "name": "qemu.git",
     "path": "/git/qemu.git"
   },
