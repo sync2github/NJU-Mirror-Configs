@@ -347,6 +347,14 @@
     "path": "/git/scoop-versions.git"
   },
   {
+    "name": "zsh-syntax-highlighting.git",
+    "path": "/git/zsh-syntax-highlighting.git"
+  },
+  {
+    "name": "zsh-autosuggestions.git",
+    "path": "/git/zsh-autosuggestions.git"
+  },
+  {
     "name": "docker-hub",
     "inherit": null,
     "status":"cache",
