@@ -1,5 +1,9 @@
 [
   {
+    "name": "archlinux-gui",
+    "inherit": "osdn"
+  },
+  {
     "name": "garuda-linux",
     "inherit": "osdn"
   },
