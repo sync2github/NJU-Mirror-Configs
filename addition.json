@@ -134,6 +134,11 @@
     "path": "/github-release/obsproject/obs-studio/"
   },
   {
+    "name": "Office-Tool",
+    "inherit": "github-release",
+    "path": "/github-release/YerongAI/Office-Tool/"
+  },
+  {
     "name": "orchestrator",
     "inherit": "github-release",
     "path": "/github-release/openark/orchestrator/"
