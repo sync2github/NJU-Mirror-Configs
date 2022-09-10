@@ -104,6 +104,11 @@
     "path": "/github-release/laurent22"
   },
   {
+    "name": "k3s",
+    "inherit": "github-release",
+    "path": "/github-release/k3s-io/k3s/"
+  },
+  {
     "name": "KataGo",
     "inherit": "github-release",
     "path": "/github-release/lightvector/KataGo/"
