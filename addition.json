@@ -84,6 +84,11 @@
     "path": "/github-release/googlefonts/"
   },
   {
+    "name": "graalvm",
+    "inherit": "github-release",
+    "path": "/github-release/graalvm/graalvm-ce-builds/"
+  },
+  {
     "name": "HandBrake",
     "inherit": "github-release",
     "path": "/github-release/HandBrake/HandBrake/"
