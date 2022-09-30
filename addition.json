@@ -351,6 +351,10 @@
     "path": "/git/powerlevel10k.git"
   },
   {
+    "name": "q-e.git",
+    "path": "/git/q-e.git"
+  },
+  {
     "name": "qemu.git",
     "path": "/git/qemu.git"
   },
