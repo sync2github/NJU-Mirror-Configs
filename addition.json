@@ -375,6 +375,10 @@
     "path": "/git/scoop-versions.git"
   },
   {
+    "name": "scoop-java.git",
+    "path": "/git/scoop-java.git"
+  },
+  {
     "name": "zsh-syntax-highlighting.git",
     "path": "/git/zsh-syntax-highlighting.git"
   },
