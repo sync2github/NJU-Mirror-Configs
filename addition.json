@@ -379,6 +379,10 @@
     "path": "/git/scoop-java.git"
   },
   {
+    "name": "scoop-nerd-fonts.git",
+    "path": "/git/scoop-nerd-fonts.git"
+  },
+  {
     "name": "zsh-syntax-highlighting.git",
     "path": "/git/zsh-syntax-highlighting.git"
   },
