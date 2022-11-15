@@ -119,6 +119,11 @@
     "path": "/github-release/llvm/llvm-project/"
   },
   {
+    "name": "lossless-cut",
+    "inherit": "github-release",
+    "path": "/github-release/mifi/lossless-cut/"
+  },
+  {
     "name": "miniforge",
     "inherit": "github-release",
     "path": "/github-release/conda-forge/miniforge/"
@@ -187,6 +192,11 @@
     "name": "rust-analyzer",
     "inherit": "github-release",
     "path": "/github-release/rust-analyzer/rust-analyzer/"
+  },
+  {
+    "name": "smiley-sans",
+    "inherit": "github-release",
+    "path": "/github-release/atelier-anchor/smiley-sans/"
   },
   {
     "name": "stellarium",
