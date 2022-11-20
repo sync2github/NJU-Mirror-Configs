@@ -533,5 +533,10 @@
     "name": "nix",
     "path": "2022-09-27-nix.md",
     "route": "nix"
+  },
+  {
+    "name": "manjaro",
+    "path": "2022-11-20-manjaro.md",
+    "route": "manjaro"
   }
 ]
