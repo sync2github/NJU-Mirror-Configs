@@ -10,5 +10,6 @@ if __name__ == '__main__':
             name = file[:-3].split('-')[3:]
             name = '-'.join(name)
             res.append({'name': name, 'path': path, 'route': name})
+    res.sort(key=lambda d:d['name'].lower())
     with open('index.json', 'w') as f:
         json.dump(res, f)

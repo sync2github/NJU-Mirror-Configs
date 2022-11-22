@@ -125,9 +125,11 @@ def getDetail(image_info, urlbase):
 
 
 def getJsonOutput(url_dict, prio={}):
-    raw = []
+    raw_top = []
+    raw_normal = []
     for distro in url_dict:
-        raw.append({
+        raw_choose = raw_top if distro in prio.keys() else raw_normal # 若存在优先级，优先按照优先级排序否则归入普通排序
+        raw_choose.append({
             "distro": distro,
             "category": list({c for _, _, c in url_dict[distro]})[0],
             "urls": [
@@ -135,7 +137,10 @@ def getJsonOutput(url_dict, prio={}):
             ]
         })
 
-    raw.sort(key=lambda d: prio.get(d["distro"], 0xFFFF))
+    raw_top.sort(key=lambda d: prio.get(d["distro"], 0xFFFF))
+    raw_normal.sort(key=lambda d:d["distro"].lower()) # 忽略大小写
+
+    raw = raw_top + raw_normal # 合并两处排序结果
 
     return json.dumps(raw)
 
