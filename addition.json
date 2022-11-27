@@ -233,6 +233,10 @@
     "path": "/git/aosp"
   },
   {
+    "name": "autoupdate-oh-my-zsh-plugins.git",
+    "path": "/git/autoupdate-oh-my-zsh-plugins.git"
+  },
+  {
     "name": "binutils-gdb.git",
     "path": "/git/binutils-gdb.git"
   },
