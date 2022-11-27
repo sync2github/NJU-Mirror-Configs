@@ -1,20 +1,5 @@
 [
     {
-        "name": "autoupdate-oh-my-zsh-plugins.git",
-        "path": "2022-11-27-autoupdate-oh-my-zsh-plugins.git.md",
-        "route": "autoupdate-oh-my-zsh-plugins.git"
-    },
-    {
-        "name": "zsh-autosuggestions.git",
-        "path": "2022-11-26-zsh-autosuggestions.git.md",
-        "route": "zsh-autosuggestions.git"
-    },
-    {
-        "name": "zsh-syntax-highlighting.git",
-        "path": "2022-11-26-zsh-syntaxhighlighting.git.md",
-        "route": "zsh-syntaxhighlighting.git"
-    },
-    {
         "name": "adoptium",
         "path": "2022-05-09-adoptium.md",
         "route": "adoptium"
@@ -63,6 +48,11 @@
         "name": "AUR",
         "path": "1970-01-01-AUR.md",
         "route": "AUR"
+    },
+    {
+        "name": "autoupdate-oh-my-zsh-plugins.git",
+        "path": "2022-11-27-autoupdate-oh-my-zsh-plugins.git.md",
+        "route": "autoupdate-oh-my-zsh-plugins.git"
     },
     {
         "name": "bananian",
@@ -553,5 +543,15 @@
         "name": "voidlinux",
         "path": "1970-01-01-voidlinux.md",
         "route": "voidlinux"
+    },
+    {
+        "name": "zsh-autosuggestions.git",
+        "path": "2022-11-26-zsh-autosuggestions.git.md",
+        "route": "zsh-autosuggestions.git"
+    },
+    {
+        "name": "zsh-syntaxhighlighting.git",
+        "path": "2022-11-26-zsh-syntaxhighlighting.git.md",
+        "route": "zsh-syntaxhighlighting.git"
     }
 ]

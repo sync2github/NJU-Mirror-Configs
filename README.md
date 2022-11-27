@@ -20,7 +20,10 @@
    > 
    > ...
    > ```
-3. Add your new documentation and its route to `index.json`.
+3. Add your new documentation and its route to `index.json` by running the following scirpt
+```
+python scripts/gendoc/genjson.py
+```
 4. Create a merge/pull request to let us know.
 
 You can preview this project on [https://iori2333.github.io/Mira](https://iori2333.github.io/Mira/).
