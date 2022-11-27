@@ -1,5 +1,20 @@
 [
     {
+        "name": "autoupdate-oh-my-zsh-plugins.git",
+        "path": "2022-11-27-autoupdate-oh-my-zsh-plugins.git.md",
+        "route": "autoupdate-oh-my-zsh-plugins.git"
+    },
+    {
+        "name": "zsh-autosuggestions.git",
+        "path": "2022-11-26-zsh-autosuggestions.git.md",
+        "route": "zsh-autosuggestions.git"
+    },
+    {
+        "name": "zsh-syntax-highlighting.git",
+        "path": "2022-11-26-syntaxhighlighting.git.md",
+        "route": "zsh-syntaxhighlighting.git"
+    },
+    {
         "name": "adoptium",
         "path": "2022-05-09-adoptium.md",
         "route": "adoptium"
