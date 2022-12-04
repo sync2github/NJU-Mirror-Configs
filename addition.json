@@ -134,6 +134,11 @@
     "path": "/github-release/kubernetes/minikube/"
   },
   {
+    "name": "NJU-Class-Shedule-Flutter",
+    "inherit": "github-release",
+    "path": "/github-release/WheretoSleepinNJU/NJU-Class-Shedule-Flutter/LatestRelease/"
+  },
+  {
     "name": "NJUThesis",
     "inherit": "github-release",
     "path": "/github-release/nju-lug/NJUThesis/LatestRelease/"
