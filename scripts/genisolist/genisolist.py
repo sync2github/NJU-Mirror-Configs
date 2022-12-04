@@ -20,8 +20,16 @@ def getPlatformPriority(platform):
     platform = platform.lower()
     if platform in ['amd64', 'x86_64', '64bit']:
         return 100
+    elif platform in ['arm64', 'aarch64', 'arm64v8']:
+        return 95
+    elif platform in ['riscv64']:
+        return 95
+    elif platform in ['loongson2f', 'loongson3']:
+        return 95
     elif platform in ['i386', 'i486', 'i586', 'i686', 'x86', '32bit']:
         return 90
+    elif platform in ['arm32', 'armhf', 'armv7']:
+        return 85
     else:
         return 0
 
@@ -125,11 +133,9 @@ def getDetail(image_info, urlbase):
 
 
 def getJsonOutput(url_dict, prio={}):
-    raw_top = []
-    raw_normal = []
+    raw = []
     for distro in url_dict:
-        raw_choose = raw_top if distro in prio.keys() else raw_normal # 若存在优先级，优先按照优先级排序否则归入普通排序
-        raw_choose.append({
+        raw.append({
             "distro": distro,
             "category": list({c for _, _, c in url_dict[distro]})[0],
             "urls": [
@@ -137,10 +143,7 @@ def getJsonOutput(url_dict, prio={}):
             ]
         })
 
-    raw_top.sort(key=lambda d: prio.get(d["distro"], 0xFFFF))
-    raw_normal.sort(key=lambda d:d["distro"].lower()) # 忽略大小写
-
-    raw = raw_top + raw_normal # 合并两处排序结果
+    raw.sort(key=lambda d: prio.get(d["distro"], 0xFFFF))
 
     return json.dumps(raw)
 
