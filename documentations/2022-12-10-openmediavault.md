@@ -19,7 +19,7 @@ omv-env set OMV_PROXMOX_APT_REPOSITORY_URL "https://mirror.nju.edu.cn/proxmox/de
 omv-salt stage run all
 ```
 
-1. 由于 Open Media Vault 自带 kernel backports 因此在 `/etc/apt/source.list` 中配置 backports 源会造成冲突。
+1. 由于 Open Media Vault 自带 kernel backports 因此在 `/etc/apt/sources.list` 中配置 backports 源会造成冲突。
 2. 由于 Open Media Vault 的公钥分发通过源自己携带完成，因此本身存在被篡改的可能性，故在换源后用户需要通过其他渠道验证获取的公钥的正确性。
 
 ### 首次部署 Open Media Vault
