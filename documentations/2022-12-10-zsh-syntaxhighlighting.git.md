@@ -7,5 +7,5 @@
 
 ```
 git clone https://mirrors.nju.edu.cn/git/zsh-syntax-highlighting.git $ZSH/custom/plugins/zsh-syntax-highlighting
-echo "source $ZSH/custom/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+echo "source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 ```

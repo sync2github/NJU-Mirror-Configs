@@ -15,9 +15,12 @@ curl https://packages.gitlab.com/gpg.key 2> /dev/null | sudo apt-key add - &>/de
 | Debian 8   | debian |  jessie         | 
 | Debian 9   | debian |  stretch        | 
 | Debian 10  | debian |  buster         | 
+| Debian 11  | debian |  bullseye        | 
 | Ubuntu 14.04 LTS | ubuntu | trusty |
 | Ubuntu 16.04 LTS | ubuntu | xenial |
 | Ubuntu 18.04 LTS | ubuntu | bionic |
+| Ubuntu 20.04 LTS | ubuntu | focal  |
+| Ubuntu 22.04 LTS | ubuntu | jammy  |
 
 ```
 deb http://mirror.nju.edu.cn/gitlab-runner/{{os_name}} {{release_name}} main

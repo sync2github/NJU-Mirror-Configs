@@ -7,5 +7,5 @@ ohmyzsh插件，提供了命令提示功能，能够基于已经输入的命令�
 
 ```
 git clone https://mirrors.nju.edu.cn/git/zsh-autosuggestions.git $ZSH/custom/plugins/zsh-autosuggestions
-echo "source $ZSH/custom/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+echo "source $ZSH_CUSTOM/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
 ```
