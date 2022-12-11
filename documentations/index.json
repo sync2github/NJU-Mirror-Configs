@@ -11,7 +11,7 @@
     },
     {
         "name": "anaconda",
-        "path": "1970-01-01-anaconda.md",
+        "path": "2022-12-11-anaconda.md",
         "route": "anaconda"
     },
     {
@@ -348,6 +348,11 @@
         "name": "mariadb",
         "path": "1970-01-01-mariadb.md",
         "route": "mariadb"
+    },
+    {
+        "name": "miniforge",
+        "path": "2022-12-11-miniforge.md",
+        "route": "miniforge"
     },
     {
         "name": "mongodb",
