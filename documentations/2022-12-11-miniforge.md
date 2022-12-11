@@ -27,9 +27,6 @@ channels:
 show_channel_urls: true
 default_channels:
   - https://mirror.nju.edu.cn/anaconda/cloud/conda-forge/
-  - https://mirror.nju.edu.cn/anaconda/pkgs/msys2/
-  - https://mirror.nju.edu.cn/anaconda/pkgs/free/
-  - https://mirror.nju.edu.cn/anaconda/pkgs/main/
 ```
 
 运行 `conda clean -i` 清除索引缓存，保证用的是镜像站提供的索引。
