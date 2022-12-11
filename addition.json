@@ -114,6 +114,11 @@
     "path": "/github-release/lightvector/KataGo/"
   },
   {
+    "name": "LANDrop",
+    "inherit": "github-release",
+    "path": "/github-release/LANDrop/LANDrop/"
+  },
+  {
     "name": "llvm-binary",
     "inherit": "github-release",
     "path": "/github-release/llvm/llvm-project/"
