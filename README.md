@@ -32,5 +32,12 @@ You can preview this project on [https://iori2333.github.io/Mira](https://iori23
 
 1. Fork this repository
 2. Place the `*.md` news document in `/news/`. The filename of your document must match `<yyyy>-<mm>-<dd>-<title>.md`, for example, `2021-13-37-SomeNews.md`.
-3. Run `scripts/gennews/gennews.py` under `/news/`. This will generate a new `index.json`.
+3. Run `scripts/gennews/gennews.py` with news path specified such as `python gennews.py -d ../../news`. This will generate a new `index.json`.
+4. Create a merge/pull request to let us know.
+
+### Mirror Documentations
+
+1. Fork this repository
+2. Place the `*.md` news document in `/documentations/`. The filename of your document must match `<yyyy>-<mm>-<dd>-<title>.md`, for example, `2021-13-37-SomeMirror.md`.
+3. Run `scripts/gendoc/genjson.py` with documentations path specified such as `python genjson.py -d ../../documentations`. This will generate a new `index.json`.
 4. Create a merge/pull request to let us know.
