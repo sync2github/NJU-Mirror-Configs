@@ -11,6 +11,21 @@ import sys
 from urllib.parse import urljoin
 from distutils.version import LooseVersion
 from configparser import ConfigParser
+from argparse import ArgumentParser
+
+parser = ArgumentParser(
+        prog = 'Mira download list generator',
+        description = 'Generate download list for Mira',
+    )
+
+parser.add_argument('-R','--remote', default=None,
+        help='Using RSync to get file list instead of reading from INI. '
+    )
+parser.add_argument('-T','--test', default=None, nargs="*",
+        help='Using RSync to get file list instead of reading from INI. '
+    )
+
+args = parser.parse_args()
 
 logger = logging.getLogger(__name__)
 CONFIG_FILE = os.path.join(os.path.dirname(__file__), 'genisolist.ini')
@@ -148,7 +163,7 @@ def getJsonOutput(url_dict, prio={}):
     return json.dumps(raw)
 
 
-def getImageList():
+def getImageList(rsync_prefix:str = "", test_item:str = ""):
     ini = ConfigParser()
     if not(ini.read(CONFIG_FILE)):
         raise Exception("%s not found!" % CONFIG_FILE)

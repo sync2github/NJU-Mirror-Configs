@@ -2,6 +2,18 @@ import re
 import json
 import os
 import datetime
+from argparse import ArgumentParser
+
+parser = ArgumentParser(
+        prog = 'Mira news list generator',
+        description = 'Generate news list for Mira',
+    )
+
+parser.add_argument('-d','--dir', default=None,
+        help='Specify the directory which contains news. Default value is current work directory.'
+    )
+
+args = parser.parse_args()
 
 FILE_REG = re.compile(r'(\d{4})\-(\d{2})\-(\d{2})-(.+).md')
 
@@ -14,8 +26,12 @@ def get_target_path(cur_path, target_dir):
 
 if __name__ == '__main__':
     entries = []
-    cur_path = os.path.dirname(__file__)
-    target_path = get_target_path(cur_path, 'news')
+    if args.dir:
+        target_path = args.dir
+    else:
+        cur_path = os.path.dirname(__file__)
+        target_path = get_target_path(cur_path, 'news')
+    print('Target path:', target_path)
     for file in os.listdir(target_path):
         if (m := FILE_REG.match(file)) != None:
             y, m, d, name = m.groups()
