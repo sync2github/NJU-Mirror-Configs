@@ -11,6 +11,23 @@ import sys
 from urllib.parse import urljoin
 from distutils.version import LooseVersion
 from configparser import ConfigParser
+from argparse import ArgumentParser, ArgumentError
+
+parser = ArgumentParser(
+        prog = 'Mira download list generator',
+        description = 'Generate download list for Mira',
+    )
+parser.add_argument('-d','--dir', default=None,
+        help='Override root directory.'
+    )
+parser.add_argument('-R','--remote', default=None,
+        help='[Remote Mode] Using rsync to get file list instead of reading from INI. Need the base of target site, for example, `mirror.nju.edu.cn`.'
+    )
+parser.add_argument('-T','--test', default=None, nargs="*",
+        help='Test specified `distro`s (multiple arguments input is supported) in INI. If Remote Mode is on, `distro`s must be specified in case of heavy rsync job.'
+    )
+
+args = parser.parse_args()
 
 logger = logging.getLogger(__name__)
 CONFIG_FILE = os.path.join(os.path.dirname(__file__), 'genisolist.ini')
@@ -52,8 +69,7 @@ def getSortKeys(template, result):
             keys.append(result.group(int(i[1:])) or "")
     return keys
 
-
-def parseSection(items):
+def parseSection(items, rsync=False):
     items = dict(items)
 
     if 'location' in items:
@@ -67,13 +83,25 @@ def parseSection(items):
 
     pattern = items.get("pattern", "")
     prog = re.compile(pattern)
-
-    images = []
     images = {}
+    
     for location in locations:
-        logger.debug("[GLOB] %s", location)
 
-        for imagepath in glob.glob(location):
+        if rsync:
+            non_regex = []
+            for dir in location.split("/"):
+                if re.search("[\?\*\[\]]" , dir):
+                    break
+                non_regex.append(dir)
+            rsync_url = args.remote.rstrip("/") + "/".join([""] + non_regex + [""]) 
+            print("[RSync] %s" % rsync_url)
+            image_paths = rsyncQuery(rsync_url)
+
+        else:
+            logger.debug("[GLOB] %s", location)
+            image_paths = glob.glob(location)
+
+        for imagepath in image_paths:
             logger.debug("[FILE] %s", imagepath)
 
             result = prog.search(imagepath)
@@ -145,48 +173,80 @@ def getJsonOutput(url_dict, prio={}):
 
     raw.sort(key=lambda d: prio.get(d["distro"], 0xFFFF))
 
-    return json.dumps(raw)
+    return json.dumps(raw, indent=2)
 
 
 def getImageList():
     ini = ConfigParser()
     if not(ini.read(CONFIG_FILE)):
         raise Exception("%s not found!" % CONFIG_FILE)
-
-    root = ini.get("%main%", 'root')
-    urlbase = ini.get("%main%", 'urlbase')
-
-    if len(sys.argv) > 1:
-        # Allow to override root in command-line
-        root = sys.argv[1]
-
+    
     prior = {}
     for (name, value) in ini.items("%main%"):
         if re.match("d\d+$", name):
             prior[value] = int(name[1:])
 
-    oldcwd = os.getcwd()
-    os.chdir(root)
 
     img_dict = collections.defaultdict(list)
-    for section in ini.sections():
-        if section == "%main%":
-            continue
-        for image in parseSection(ini.items(section)):
-            img_dict[image['distro']].append(image)
 
-    url_dict = {}
-    for distro, images in img_dict.items():
-        images.sort(key=lambda x: x['sort_key'], reverse=True)
-        logger.debug("[IMAGES] %r %r", distro, images)
-        url_dict[distro] = [getDetail(image, urlbase) for image in images]
+    root = ini.get("%main%", 'root')
+    urlbase = ini.get("%main%", 'urlbase')
 
-    os.chdir(oldcwd)
+    if not args.remote:
 
+        if args.dir:
+            # Allow to override root in command-line
+            root = args.dir
+            
+        oldcwd = os.getcwd()
+        os.chdir(root)
+
+        for section in ini.sections():
+            if section == "%main%":
+                continue
+            for image in parseSection(ini.items(section)):
+                img_dict[image['distro']].append(image)
+
+        url_dict = {}
+        for distro, images in img_dict.items():
+            images.sort(key=lambda x: x['sort_key'], reverse=True)
+            logger.debug("[IMAGES] %r %r", distro, images)
+            url_dict[distro] = [getDetail(image, urlbase) for image in images]
+
+        os.chdir(oldcwd)
+
+    else:
+        for spec_distro in args.test:
+
+            for section in ini.sections():
+                if section == "%main%":
+                    continue
+                if ini.get(section, 'distro') != spec_distro:
+                    continue
+                else:
+                    for image in parseSection(ini.items(section), rsync=True):
+                        img_dict[image['distro']].append(image)
+
+            url_dict = {}
+            for distro, images in img_dict.items():
+                images.sort(key=lambda x: x['sort_key'], reverse=True)
+                logger.debug("[IMAGES] %r %r", distro, images)
+                url_dict[distro] = [getDetail(image, urlbase) for image in images]
+        
     return getJsonOutput(url_dict, prior)
 
+        
+
+def rsyncQuery(url:str):
+    rsync_proc = os.popen("rsync -r --list-only --no-motd rsync://%s | awk '{ $1=$2=$3=$4=\"\"; print substr($0,5); }'" % url)
+    return [path.rstrip() for path in rsync_proc.readlines()]
 
 if __name__ == "__main__":
     import sys
     logging.basicConfig(stream=sys.stderr, level=logging.WARNING)
+    if args.remote:
+        if not args.test:
+            raise ArgumentError(None, 'If Remote Mode is on, images must be specified in case of heavy rsync job.')
+
+
     print(getImageList())
