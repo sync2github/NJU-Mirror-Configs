@@ -119,6 +119,11 @@
     "path": "/github-release/LANDrop/LANDrop/"
   },
   {
+    "name": "librespeed-cli",
+    "inherit": "github-release",
+    "path": "/github-release/librespeed/speedtest-cli/"
+  },
+  {
     "name": "llvm-binary",
     "inherit": "github-release",
     "path": "/github-release/llvm/llvm-project/"
