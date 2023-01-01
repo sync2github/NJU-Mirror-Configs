@@ -281,7 +281,7 @@
     },
     {
         "name": "kubernetes",
-        "path": "1970-01-01-kubernetes.md",
+        "path": "2023-01-01-kubernetes.md",
         "route": "kubernetes"
     },
     {

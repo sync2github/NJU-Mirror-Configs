@@ -7,24 +7,15 @@ Kubernetes 是用于自动部署，扩展和管理容器化应用程序的开源
 首先导入 gpg key：
 
 ```shell
-$ curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+$ sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
 ```
 
 新建 `/etc/apt/sources.list.d/kubernetes.list`，内容为
 
 ```
-deb https://mirror.nju.edu.cn/kubernetes/apt kubernetes-{{release_name}} main
+deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://mirrors.nju.edu.cn/kubernetes/apt kubernetes-xenial main
 ```
 
-|  版本 | {{os_name}} | {{release_name}} | 
-| :----: | :----: | :----: |
-| Debian 8   | debian |  jessie         | 
-| Debian 9   | debian |  stretch        | 
-| Debian 10  | debian |  buster         | 
-| Ubuntu 14.04 LTS | ubuntu | trusty |
-| Ubuntu 16.04 LTS | ubuntu | xenial |
-| Ubuntu 18.04 LTS | ubuntu | bionic |
-| Ubuntu 20.04 LTS | ubuntu | focal |
 
 ### RHEL/CentOS 用户
 
