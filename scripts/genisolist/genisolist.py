@@ -136,8 +136,6 @@ def parseSection(items, rsync=False):
                                             getPlatformPriority(k['platform']),
                                             k['type']),
                              reverse=True)
-
-        i = 0
         versions = set()
         listvers = int(items.get('listvers', 0xFF))
         for image in image_group:
@@ -146,6 +144,7 @@ def parseSection(items, rsync=False):
                 yield image
             else:
                 break
+        logger.debug(versions)
 
 
 def getDetail(image_info, urlbase):
@@ -153,7 +152,7 @@ def getDetail(image_info, urlbase):
     desc = "%s (%s%s)" % (
             image_info['version'],
             image_info['platform'],
-            ", %s" % image_info['type'] if image_info['type'] else ''
+            ", %s" % image_info['type'].strip() if image_info['type'] else ''
     ) if image_info['platform'] != "" else image_info['version']
 
     category = image_info.get('category', 'os') or "os"
