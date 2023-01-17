@@ -1,17 +1,24 @@
 [
     {
-        "name": "\u5982\u4f55\u7533\u8bf7\u6dfb\u52a0\u955c\u50cf\uff1f",
+        "name": "如何申请添加镜像？",
         "time": 1668614400.0,
-        "content": "2022-11-17-\u5982\u4f55\u7533\u8bf7\u6dfb\u52a0\u955c\u50cf\uff1f.md"
+        "author": "eScience",
+        "tags": [
+            "镜像",
+            "公告"
+        ],
+        "content": "2022-11-17-如何申请添加镜像？.md"
     },
     {
-        "name": "\u51ac\u65e5\u6362\u88c5",
+        "name": "冬日换装",
         "time": 1638633600.0,
-        "content": "2021-12-05-\u51ac\u65e5\u6362\u88c5.md"
+        "author": "Mira",
+        "content": "2021-12-05-冬日换装.md"
     },
     {
-        "name": "\u7b2c\u4e00\u6761\u65b0\u95fb",
+        "name": "第一条新闻",
         "time": 1628956800.0,
-        "content": "2021-08-15-\u7b2c\u4e00\u6761\u65b0\u95fb.md"
+        "author": "Mira",
+        "content": "2021-08-15-第一条新闻.md"
     }
 ]
