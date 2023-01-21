@@ -4,6 +4,10 @@
     "inherit": "osdn"
   },
   {
+    "name": "debian-nonfree",
+    "inherit": "debian-cdimage"
+  },
+  {
     "name": "garuda-linux",
     "inherit": "osdn"
   },
