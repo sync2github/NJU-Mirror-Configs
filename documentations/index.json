@@ -32,7 +32,8 @@
     {
         "name": "archlinux",
         "path": "1970-01-01-archlinux.md",
-        "route": "archlinux"
+        "route": "archlinux",
+        "redirect": "https://help.mirrors.cernet.edu.cn/archlinux/?mirror=NJU"
     },
     {
         "name": "archlinuxarm",
