@@ -2,48 +2,56 @@
     {
         "name": "adoptium",
         "path": "2022-05-09-adoptium.md",
-        "route": "adoptium"
+        "route": "adoptium",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/Adoptium/?mirror=NJU"
     },
     {
         "name": "alpine",
         "path": "2007-08-31-alpine.md",
-        "route": "alpine"
+        "route": "alpine",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/alpine/?mirror=NJU"
     },
     {
         "name": "anaconda",
         "path": "2022-12-11-anaconda.md",
-        "route": "anaconda"
+        "route": "anaconda",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/anaconda/?mirror=NJU"
     },
     {
         "name": "anthon",
         "path": "2018-09-28-anthon.md",
-        "route": "anthon"
+        "route": "anthon",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/anthon/?mirror=NJU"
     },
     {
         "name": "aosp",
         "path": "1970-01-01-aosp.md",
-        "route": "aosp"
+        "route": "aosp",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/AOSP/?mirror=NJU"
     },
     {
         "name": "arch4edu",
         "path": "2019-03-18-arch4edu.md",
-        "route": "arch4edu"
+        "route": "arch4edu",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/arch4edu/?mirror=NJU"
     },
     {
         "name": "archlinux",
         "path": "1970-01-01-archlinux.md",
         "route": "archlinux",
-        "redirect": "https://help.mirrors.cernet.edu.cn/archlinux/?mirror=NJU"
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/archlinux/?mirror=NJU"
     },
     {
         "name": "archlinuxarm",
         "path": "1970-01-01-archlinuxarm.md",
-        "route": "archlinuxarm"
+        "route": "archlinuxarm",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/archlinuxarm/?mirror=NJU"
     },
     {
         "name": "archlinuxcn",
         "path": "1970-01-01-archlinuxcn.md",
-        "route": "archlinuxcn"
+        "route": "archlinuxcn",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/archlinuxcn/?mirror=NJU"
     },
     {
         "name": "autoupdate-oh-my-zsh-plugins.git",
@@ -51,99 +59,100 @@
         "route": "autoupdate-oh-my-zsh-plugins.git"
     },
     {
-        "name": "bananian",
-        "path": "1970-01-01-bananian.md",
-        "route": "bananian"
-    },
-    {
         "name": "binutils-gdb.git",
         "path": "1970-01-01-binutils-gdb.git.md",
-        "route": "binutils-gdb.git"
+        "route": "binutils-gdb.git",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/binutils-gdb.git/?mirror=NJU"
     },
     {
         "name": "bioconductor",
         "path": "2017-01-12-bioconductor.md",
-        "route": "bioconductor"
+        "route": "bioconductor",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/bioconductor/?mirror=NJU"
     },
     {
         "name": "centos",
         "path": "1970-01-01-centos.md",
-        "route": "centos"
+        "route": "centos",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/centos/?mirror=NJU"
     },
     {
         "name": "centos-altarch",
         "path": "1970-01-01-centos-altarch.md",
-        "route": "centos-altarch"
+        "route": "centos-altarch",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/centos-altarch/?mirror=NJU"
     },
     {
         "name": "centos-vault",
         "path": "1970-01-01-centos-vault.md",
-        "route": "centos-vault"
+        "route": "centos-vault",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/centos-vault/?mirror=NJU"
     },
     {
         "name": "ceph",
         "path": "2021-01-01-ceph.md",
-        "route": "ceph"
+        "route": "ceph",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/ceph/?mirror=NJU"
     },
     {
         "name": "chef",
         "path": "1970-01-01-chef.md",
-        "route": "chef"
-    },
-    {
-        "name": "chromiumos",
-        "path": "1970-01-01-chromiumos.md",
-        "route": "chromiumos"
-    },
-    {
-        "name": "clickhouse",
-        "path": "1970-01-01-clickhouse.md",
-        "route": "clickhouse"
+        "route": "chef",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/chef/?mirror=NJU"
     },
     {
         "name": "CocoaPods",
         "path": "1970-01-01-CocoaPods.md",
-        "route": "CocoaPods"
+        "route": "CocoaPods",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/CocoaPods/?mirror=NJU"
     },
     {
         "name": "CPAN",
         "path": "2020-12-29-CPAN.md",
-        "route": "CPAN"
+        "route": "CPAN",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/CPAN/?mirror=NJU"
     },
     {
         "name": "CRAN",
         "path": "2017-01-17-CRAN.md",
-        "route": "CRAN"
+        "route": "CRAN",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/CRAN/?mirror=NJU"
     },
     {
         "name": "crates.io-index.git",
         "path": "1970-01-01-crates.io-index.git.md",
-        "route": "crates.io-index.git"
+        "route": "crates.io-index.git",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/crates.io-index.git/?mirror=NJU"
     },
     {
         "name": "CTAN",
         "path": "2017-08-10-CTAN.md",
-        "route": "CTAN"
+        "route": "CTAN",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/CTAN/?mirror=NJU"
     },
     {
         "name": "cygwin",
         "path": "1970-01-01-cygwin.md",
-        "route": "cygwin"
+        "route": "cygwin",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/cygwin/?mirror=NJU"
     },
     {
         "name": "dart-pub",
         "path": "2019-02-25-dart-pub.md",
-        "route": "dart-pub"
+        "route": "dart-pub",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/dart-pub/?mirror=NJU"
     },
     {
         "name": "debian",
         "path": "1970-01-01-debian.md",
-        "route": "debian"
+        "route": "debian",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/debian/?mirror=NJU"
     },
     {
         "name": "docker-ce",
         "path": "1970-01-01-docker-ce.md",
-        "route": "docker-ce"
+        "route": "docker-ce",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/docker-ce/?mirror=NJU"
     },
     {
         "name": "docker-hub",
@@ -153,52 +162,62 @@
     {
         "name": "elpa",
         "path": "1970-01-01-elpa.md",
-        "route": "elpa"
+        "route": "elpa",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/elpa/?mirror=NJU"
     },
     {
         "name": "elrepo",
         "path": "1970-01-01-elrepo.md",
-        "route": "elrepo"
+        "route": "elrepo",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/elrepo/?mirror=NJU"
     },
     {
         "name": "epel",
         "path": "2022-12-27-epel.md",
-        "route": "epel"
+        "route": "epel",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/epel/?mirror=NJU"
     },
     {
         "name": "fdroid",
         "path": "1970-01-01-fdroid.md",
-        "route": "fdroid"
+        "route": "fdroid",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/fdroid/?mirror=NJU"
     },
     {
         "name": "fedora",
         "path": "1970-01-01-fedora.md",
-        "route": "fedora"
+        "route": "fedora",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/fedora/?mirror=NJU"
     },
     {
         "name": "flutter",
         "path": "2019-02-27-flutter.md",
-        "route": "flutter"
+        "route": "flutter",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/flutter/?mirror=NJU"
     },
     {
         "name": "flutter-sdk.git",
         "path": "1970-01-01-flutter-sdk.git.md",
-        "route": "flutter-sdk.git"
+        "route": "flutter-sdk.git",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/flutter-sdk.git/?mirror=NJU"
     },
     {
         "name": "gcc.git",
         "path": "1970-01-01-gcc.git.md",
-        "route": "gcc.git"
+        "route": "gcc.git",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/gcc.git/?mirror=NJU"
     },
     {
         "name": "gentoo-portage",
         "path": "2017-12-29-gentoo-portage.md",
-        "route": "gentoo-portage"
+        "route": "gentoo-portage",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/gentoo-portage/?mirror=NJU"
     },
     {
         "name": "gentoo-portage.git",
         "path": "2020-05-05-gentoo-portage.git.md",
-        "route": "gentoo-portage.git"
+        "route": "gentoo-portage.git",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/gentoo-portage.git/?mirror=NJU"
     },
     {
         "name": "gentoo-prefix",
@@ -208,12 +227,14 @@
     {
         "name": "git-repo",
         "path": "1970-01-01-git-repo.md",
-        "route": "git-repo"
+        "route": "git-repo",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/git-repo/?mirror=NJU"
     },
     {
         "name": "gitlab-ce",
         "path": "1970-01-01-gitlab-ce.md",
-        "route": "gitlab-ce"
+        "route": "gitlab-ce",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/gitlab-ce/?mirror=NJU"
     },
     {
         "name": "gitlab-ci-multi-runner",
@@ -223,12 +244,14 @@
     {
         "name": "gitlab-runner",
         "path": "2022-12-10-gitlab-runner.md",
-        "route": "gitlab-runner"
+        "route": "gitlab-runner",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/gitlab-runner/?mirror=NJU"
     },
     {
         "name": "glibc.git",
         "path": "1970-01-01-glibc.git.md",
-        "route": "glibc.git"
+        "route": "glibc.git",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/glibc.git/?mirror=NJU"
     },
     {
         "name": "go",
@@ -238,117 +261,116 @@
     {
         "name": "grafana",
         "path": "2019-02-15-grafana.md",
-        "route": "grafana"
+        "route": "grafana",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/grafana/?mirror=NJU"
     },
     {
         "name": "hackage",
         "path": "1970-01-01-hackage.md",
-        "route": "hackage"
+        "route": "hackage",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/hackage/?mirror=NJU"
     },
     {
         "name": "homebrew",
         "path": "1970-01-01-homebrew.md",
-        "route": "homebrew"
+        "route": "homebrew",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/homebrew/?mirror=NJU"
     },
     {
         "name": "homebrew-bottles",
         "path": "1970-01-01-homebrew-bottles.md",
-        "route": "homebrew-bottles"
-    },
-    {
-        "name": "hugging-face-models",
-        "path": "2020-09-19-hugging-face-models.md",
-        "route": "hugging-face-models"
+        "route": "homebrew-bottles",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/homebrew-bottles/?mirror=NJU"
     },
     {
         "name": "influxdata",
         "path": "2021-05-25-influxdata.md",
-        "route": "influxdata"
+        "route": "influxdata",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/influxdata/?mirror=NJU"
     },
     {
         "name": "julia",
         "path": "2020-05-25-julia.md",
-        "route": "julia"
+        "route": "julia",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/julia/?mirror=NJU"
     },
     {
         "name": "julia-releases",
         "path": "2020-05-25-julia-releases.md",
-        "route": "julia-releases"
+        "route": "julia-releases",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/julia-releases/?mirror=NJU"
     },
     {
         "name": "kicad",
         "path": "2019-07-23-kicad.md",
-        "route": "kicad"
+        "route": "kicad",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/kicad/?mirror=NJU"
     },
     {
         "name": "kubernetes",
         "path": "2023-01-01-kubernetes.md",
-        "route": "kubernetes"
+        "route": "kubernetes",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/kubernetes/?mirror=NJU"
     },
     {
         "name": "lineage-rom",
         "path": "1970-01-01-lineage-rom.md",
-        "route": "lineage-rom"
-    },
-    {
-        "name": "lineageos",
-        "path": "1970-01-01-lineageos.md",
-        "route": "lineageos"
+        "route": "lineage-rom",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/lineage-rom/?mirror=NJU"
     },
     {
         "name": "linux-firmware.git",
         "path": "1970-01-01-linux-firmware.git.md",
-        "route": "linux-firmware.git"
+        "route": "linux-firmware.git",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/linux-firmware.git/?mirror=NJU"
     },
     {
         "name": "linux-next.git",
         "path": "1970-01-01-linux-next.git.md",
-        "route": "linux-next.git"
+        "route": "linux-next.git",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/linux-next.git/?mirror=NJU"
     },
     {
         "name": "linux-stable.git",
         "path": "1970-01-01-linux-stable.git.md",
-        "route": "linux-stable.git"
+        "route": "linux-stable.git",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/linux-stable.git/?mirror=NJU"
     },
     {
         "name": "linux.git",
         "path": "1970-01-01-linux.git.md",
-        "route": "linux.git"
-    },
-    {
-        "name": "linuxbrew-bottles",
-        "path": "1970-01-01-linuxbrew-bottles.md",
-        "route": "linuxbrew-bottles"
+        "route": "linux.git",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/linux.git/?mirror=NJU"
     },
     {
         "name": "linuxmint",
         "path": "1970-01-01-linuxmint.md",
-        "route": "linuxmint"
-    },
-    {
-        "name": "llvm",
-        "path": "2017-05-28-llvm.md",
-        "route": "llvm"
+        "route": "linuxmint",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/linuxmint/?mirror=NJU"
     },
     {
         "name": "llvm-project.git",
         "path": "2020-09-10-llvm-project.git.md",
-        "route": "llvm-project.git"
+        "route": "llvm-project.git",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/llvm-project.git/?mirror=NJU"
     },
     {
         "name": "lxc-images",
         "path": "1970-01-01-lxc-images.md",
-        "route": "lxc-images"
+        "route": "lxc-images",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/lxc-images/?mirror=NJU"
     },
     {
         "name": "manjaro",
         "path": "2022-11-20-manjaro.md",
-        "route": "manjaro"
+        "route": "manjaro",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/manjaro/?mirror=NJU"
     },
     {
         "name": "mariadb",
         "path": "1970-01-01-mariadb.md",
-        "route": "mariadb"
+        "route": "mariadb",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/mariadb/?mirror=NJU"
     },
     {
         "name": "miniforge",
@@ -358,37 +380,38 @@
     {
         "name": "mongodb",
         "path": "1970-01-01-mongodb.md",
-        "route": "mongodb"
+        "route": "mongodb",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/mongodb/?mirror=NJU"
     },
     {
         "name": "msys2",
         "path": "1970-01-01-msys2.md",
-        "route": "msys2"
+        "route": "msys2",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/msys2/?mirror=NJU"
     },
     {
         "name": "mysql",
         "path": "1970-01-01-mysql.md",
-        "route": "mysql"
+        "route": "mysql",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/mysql/?mirror=NJU"
     },
     {
         "name": "nix",
         "path": "2022-09-27-nix.md",
-        "route": "nix"
+        "route": "nix",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/nix/?mirror=NJU"
     },
     {
         "name": "nodejs-release",
         "path": "1970-01-01-nodejs-release.md",
-        "route": "nodejs-release"
-    },
-    {
-        "name": "nodesource",
-        "path": "1970-01-01-nodesource.md",
-        "route": "nodesource"
+        "route": "nodejs-release",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/nodejs-release/?mirror=NJU"
     },
     {
         "name": "ohmyzsh.git",
         "path": "2022-02-01-ohmyzsh.git.md",
-        "route": "ohmyzsh.git"
+        "route": "ohmyzsh.git",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/ohmyzsh.git/?mirror=NJU"
     },
     {
         "name": "openmediavault",
@@ -398,147 +421,158 @@
     {
         "name": "opensuse",
         "path": "2021-03-11-opensuse.md",
-        "route": "opensuse"
-    },
-    {
-        "name": "openthos-src",
-        "path": "2017-11-28-openthos-src.md",
-        "route": "openthos-src"
+        "route": "opensuse",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/opensuse/?mirror=NJU"
     },
     {
         "name": "openwrt",
         "path": "1970-01-01-openwrt.md",
-        "route": "openwrt"
+        "route": "openwrt",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/openwrt/?mirror=NJU"
     },
     {
         "name": "packagist",
         "path": "1970-01-01-packagist.md",
-        "route": "packagist"
+        "route": "packagist",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/packagist/?mirror=NJU"
     },
     {
         "name": "proxmox",
         "path": "1970-01-01-proxmox.md",
-        "route": "proxmox"
-    },
-    {
-        "name": "pybombs",
-        "path": "1970-01-01-pybombs.md",
-        "route": "pybombs"
+        "route": "proxmox",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/proxmox/?mirror=NJU"
     },
     {
         "name": "pypi",
         "path": "1970-01-01-pypi.md",
-        "route": "pypi"
+        "route": "pypi",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/pypi/?mirror=NJU"
     },
     {
         "name": "qemu.git",
         "path": "1970-01-01-qemu.git.md",
-        "route": "qemu.git"
+        "route": "qemu.git",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/qemu.git/?mirror=NJU"
     },
     {
         "name": "qt",
         "path": "2021-09-25-qt.md",
-        "route": "qt"
+        "route": "qt",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/qt/?mirror=NJU"
     },
     {
         "name": "qubesos",
         "path": "2019-05-03-qubesos.md",
-        "route": "qubesos"
+        "route": "qubesos",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/qubesos/?mirror=NJU"
     },
     {
         "name": "raspbian",
         "path": "1970-01-01-raspbian.md",
-        "route": "raspbian"
+        "route": "raspbian",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/raspbian/?mirror=NJU"
     },
     {
         "name": "repo-ck",
         "path": "1970-01-01-repo-ck.md",
-        "route": "repo-ck"
-    },
-    {
-        "name": "repoforge",
-        "path": "2016-06-21-repoforge.md",
-        "route": "repoforge"
+        "route": "repo-ck",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/repo-ck/?mirror=NJU"
     },
     {
         "name": "rocky",
         "path": "2021-10-12-rocky.md",
-        "route": "rocky"
+        "route": "rocky",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/rocky/?mirror=NJU"
     },
     {
         "name": "ros",
         "path": "1970-01-01-ros.md",
-        "route": "ros"
+        "route": "ros",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/ros/?mirror=NJU"
     },
     {
         "name": "ros2",
         "path": "1970-01-01-ros2.md",
-        "route": "ros2"
+        "route": "ros2",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/ros2/?mirror=NJU"
     },
     {
         "name": "rpmfusion",
         "path": "1970-01-01-rpmfusion.md",
-        "route": "rpmfusion"
+        "route": "rpmfusion",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/rpmfusion/?mirror=NJU"
     },
     {
         "name": "rubygems",
         "path": "2016-08-18-rubygems.md",
-        "route": "rubygems"
+        "route": "rubygems",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/rubygems/?mirror=NJU"
     },
     {
         "name": "rudder",
         "path": "1970-01-01-rudder.md",
-        "route": "rudder"
+        "route": "rudder",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/rudder/?mirror=NJU"
     },
     {
         "name": "rustup",
         "path": "2022-12-10-rustup.md",
-        "route": "rustup"
+        "route": "rustup",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/rustup/?mirror=NJU"
     },
     {
         "name": "solus",
         "path": "2019-06-25-solus.md",
-        "route": "solus"
+        "route": "solus",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/solus/?mirror=NJU"
     },
     {
         "name": "stackage",
         "path": "1970-01-01-stackage.md",
-        "route": "stackage"
+        "route": "stackage",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/stackage/?mirror=NJU"
     },
     {
         "name": "termux",
         "path": "2023-02-08-termux.md",
-        "route": "termux"
+        "route": "termux",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/termux/?mirror=NJU"
     },
     {
         "name": "tlpretest",
         "path": "2020-03-06-tlpretest.md",
-        "route": "tlpretest"
+        "route": "tlpretest",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/tlpretest/?mirror=NJU"
     },
     {
         "name": "ubuntu",
         "path": "2022-12-10-ubuntu.md",
-        "route": "ubuntu"
+        "route": "ubuntu",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/ubuntu/?mirror=NJU"
     },
     {
         "name": "ubuntu-cloud-images",
         "path": "2021-07-14-ubuntu-cloud-images.md",
-        "route": "ubuntu-cloud-images"
+        "route": "ubuntu-cloud-images",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/ubuntu-cloud-images/?mirror=NJU"
     },
     {
         "name": "ubuntu-ports",
         "path": "1970-01-01-ubuntu-ports.md",
-        "route": "ubuntu-ports"
+        "route": "ubuntu-ports",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/ubuntu-ports/?mirror=NJU"
     },
     {
         "name": "virtualbox",
         "path": "2016-06-19-virtualbox.md",
-        "route": "virtualbox"
+        "route": "virtualbox",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/virtualbox/?mirror=NJU"
     },
     {
         "name": "voidlinux",
         "path": "1970-01-01-voidlinux.md",
-        "route": "voidlinux"
+        "route": "voidlinux",
+        "redirect": "https://mirror.nju.edu.cn/mirrorz-help/voidlinux/?mirror=NJU"
     },
     {
         "name": "zsh-autosuggestions.git",
