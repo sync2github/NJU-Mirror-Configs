@@ -157,7 +157,24 @@
     {
         "name": "docker-hub",
         "path": "2021-08-16-docker-hub.md",
-        "route": "docker-hub"
+        "route": "docker-hub",
+        "redirect": "https://doc.nju.edu.cn/books/35f4a/page/docker-hub"
+    },
+    {
+        "name": "docker-gcr",
+        "redirect": "https://doc.nju.edu.cn/books/35f4a/page/gcr"
+    },
+    {
+        "name": "docker-ghcr",
+        "redirect": "https://doc.nju.edu.cn/books/35f4a/page/ghcr"
+    },
+    {
+        "name": "docker-ngc",
+        "redirect": "https://doc.nju.edu.cn/books/35f4a/page/ngc"
+    },
+    {
+        "name": "docker-quay",
+        "redirect": "https://doc.nju.edu.cn/books/35f4a/page/quay"
     },
     {
         "name": "elpa",
@@ -237,11 +254,6 @@
         "redirect": "https://mirror.nju.edu.cn/mirrorz-help/gitlab-ce/?mirror=NJU"
     },
     {
-        "name": "gitlab-ci-multi-runner",
-        "path": "1970-01-01-gitlab-ci-multi-runner.md",
-        "route": "gitlab-ci-multi-runner"
-    },
-    {
         "name": "gitlab-runner",
         "path": "2022-12-10-gitlab-runner.md",
         "route": "gitlab-runner",
@@ -256,7 +268,12 @@
     {
         "name": "go",
         "path": "2021-08-20-go.md",
-        "route": "go"
+        "route": "go",
+        "redirect": "https://doc.nju.edu.cn/books/35f4a/page/go"
+    },
+    {
+        "name": "gradle",
+        "path": "https://doc.nju.edu.cn/books/35f4a/page/gradle"
     },
     {
         "name": "grafana",
@@ -373,6 +390,10 @@
         "redirect": "https://mirror.nju.edu.cn/mirrorz-help/mariadb/?mirror=NJU"
     },
     {
+        "name": "maven",
+        "redirect": "https://doc.nju.edu.cn/books/35f4a/page/maven"
+    },
+    {
         "name": "miniforge",
         "path": "2022-12-11-miniforge.md",
         "route": "miniforge"
@@ -406,6 +427,10 @@
         "path": "1970-01-01-nodejs-release.md",
         "route": "nodejs-release",
         "redirect": "https://mirror.nju.edu.cn/mirrorz-help/nodejs-release/?mirror=NJU"
+    },
+    {
+        "name": "npm",
+        "redirect": "https://doc.nju.edu.cn/books/35f4a/page/npm"
     },
     {
         "name": "ohmyzsh.git",
