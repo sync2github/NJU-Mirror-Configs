@@ -273,7 +273,7 @@
     },
     {
         "name": "gradle",
-        "path": "https://doc.nju.edu.cn/books/35f4a/page/gradle"
+        "redirect": "https://doc.nju.edu.cn/books/35f4a/page/gradle"
     },
     {
         "name": "grafana",
